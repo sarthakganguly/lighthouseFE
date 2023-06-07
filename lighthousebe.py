@@ -35,7 +35,7 @@ def index():
 
   print('Output =' + lighthouse_output)
   lighthouse_report = json.loads(lighthouse_output)
-  return "1"
+  return lighthouse_report
 
 if __name__ == "__main__":
   app.run(debug=False)
