@@ -15,18 +15,18 @@ This is a Flask app that returns the JSON report from Lighthouse CLI for the giv
 ## Installation
 1. Install Python 3.6 or higher.
 2. Install Flask:
-`code` pip install Flask
+`pip install Flask`
 3. Install Lighthouse CLI:
-`code` npm install lighthouse-ci
+`npm install lighthouse-ci`
 
 ## Usage
 1. Start the Flask app
-`code` python lighthouse-cli-flask-app.py
+`python lighthouse-cli-flask-app.py`
 2. Open a web browser and navigate to http://localhost:5000.
 3. Enter a URL in the input field and click the Submit button.
 4. The JSON report from Lighthouse CLI for the given URL will be displayed.
 5. Run the following command
-`code` curl http://localhost:5000/?url=https://www.google.com
+`curl http://localhost:5000/?url=https://www.google.com`
 
 ---
 [Sarthak Ganguly (TheCodePost)](https://www.thecodepost.org/about)
